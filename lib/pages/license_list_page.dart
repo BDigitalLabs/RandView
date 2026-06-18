@@ -18,28 +18,28 @@ class LicenseListPage extends StatefulWidget {
   static const List<License> licenses = [
     License(
       name: "RandView",
-      path: "licenses/RandView_LICENSE.txt",
-      noticePath: "licenses/RandView_NOTICE.txt",
+      path: "LICENSE.txt",
+      noticePath: "NOTICE.txt",
     ),
-    License(name: "flutter_lints", path: "licenses/third-party/flutter_lints_LICENSE.txt"),
-    License(name: "Dart", path: "licenses/third-party/Dart_LICENSE.txt"),
-    License(name: "path", path: "licenses/third-party/path_LICENSE.txt"),
-    License(name: "Flutter", path: "licenses/third-party/Flutter_LICENSE.txt"),
+    License(name: "flutter_lints", path: "third_party_licenses/flutter_lints_LICENSE.txt"),
+    License(name: "Dart", path: "third_party_licenses/Dart_LICENSE.txt"),
+    License(name: "path", path: "third_party_licenses/path_LICENSE.txt"),
+    License(name: "Flutter", path: "third_party_licenses/Flutter_LICENSE.txt"),
     License(
       name: "flutter_launcher_icons",
-      path: "licenses/third-party/flutter_launcher_icons_LICENSE.txt",
+      path: "third_party_licenses/flutter_launcher_icons_LICENSE.txt",
     ),
     License(
       name: "image_picker",
-      path: "licenses/third-party/image_picker_LICENSE.txt",
+      path: "third_party_licenses/image_picker_LICENSE.txt",
     ),
     License(
       name: "Audiowide",
-      path: "licenses/third-party/Audiowide_LICENSE.txt",
+      path: "third_party_licenses/Audiowide_LICENSE.txt",
     ),
     License(
       name: "path_provider",
-      path: "licenses/third-party/path_provider_LICENSE.txt",
+      path: "third_party_licenses/path_provider_LICENSE.txt",
     ),
   ];
 

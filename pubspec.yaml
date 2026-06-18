@@ -76,8 +76,9 @@ flutter:
   # example:
   assets:
    - assets/ 
-   - licenses/
-   - licenses/third-party/
+   - third_party_licenses/
+   - LICENSE.txt
+   - NOTICE.txt
   fonts:
     - family: Audiowide
       fonts:
