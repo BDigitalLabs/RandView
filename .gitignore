@@ -1,0 +1,34 @@
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android
+android/**/local.properties
+android/Flutter/flutter_export_environment.sh
+android/GeneratedPluginRegistrant.java
+android/.gradle/
+*.keystore
+*.jks
+
+# iOS & macOS
+ios/.xcode.env.local
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+**/Pods/
+Podfile.lock
+
+# IDE & System
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+.DS_Store
+
+# Hidden Files
+.env
+.env.*
